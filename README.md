@@ -1,7 +1,9 @@
-** Explainable AI for Skin Cancer Detection**
+**Explainable AI for Skin Cancer Detection**
+
 This project develops an explainable AI application for the detection of skin cancer from dermatoscopic images. It moves beyond a simple "black box" model by providing a visual explanation for its predictions, thereby building trust and serving as a valuable tool for assisting in clinical decisions.
 
-** Key Features**
+**Key Features**
+
 Explainable AI (XAI): Implements Grad-CAM to generate heatmaps that show exactly which parts of an image the model used to make its prediction.
 
 Accessible & User-Friendly: Built with Streamlit, the application features a clean, interactive web interface.
@@ -11,6 +13,7 @@ High Performance: Utilizes a powerful, pre-trained ResNet model with transfer le
 Robust Architecture: The project is designed with a modular approach, separating data management, model logic, and the user interface for easy maintenance and future upgrades.
 
 **🛠 Technologies Used**
+
 Deep Learning: TensorFlow and Keras
 
 Image Processing: scikit-image & Pillow
@@ -23,7 +26,8 @@ Version Control: Git & GitHub
 
 Core Model: ResNet50 (with pre-trained weights)
 
-** How to Run the Application**
+**How to Run the Application**
+
 Follow these steps to get a local copy of the project up and running.
 
 1. Clone the repository
@@ -47,6 +51,7 @@ streamlit run app.py
 The app will open in your web browser, allowing you to upload an image and get a prediction.
 
 **📅 Project Timeline**
+
 This project was developed in a structured, phased approach to ensure all components were built and integrated efficiently.
 
 Phase 1 (Weeks 1-2): Data Collection & Preparation
@@ -58,6 +63,7 @@ Phase 3 (Weeks 5-6): Application & XAI Integration
 Phase 4 (Weeks 7-8): Finalization & Review
 
 **🔗 Contact & Acknowledgments**
+
 Developer: Udath Hegde
 
 GitHub: github.com/nife77
