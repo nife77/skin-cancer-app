@@ -1,0 +1,16 @@
+# Ignore large image datasets
+data/
+ISIC-images*/
+separated_images/
+
+# Ignore trained models & weights
+models/
+
+# Ignore Python virtual environment
+.venv/
+__pycache__/
+
+# Ignore cache
+*.h5
+*.keras
+*.ckpt
